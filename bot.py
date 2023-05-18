@@ -4,7 +4,7 @@ import logging
 from api import get_coffee
 logging.basicConfig(level=logging.INFO)
 
-bot=Bot(token="5890052860:AAESeAa7DqFbJalKdH7jIwg1AO5AHIOLs9A")
+bot=Bot(token="token yozasan")
 dp=Dispatcher(bot)
 
 @dp.message_handler(commands="start")
